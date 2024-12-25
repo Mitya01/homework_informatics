@@ -57,6 +57,8 @@ crontab -e
 crontab -l
 ```
 
+![Снимок экрана 2024-12-25 230551](https://github.com/user-attachments/assets/fec5e144-7a84-492f-a6ae-6259b0ca693c)
+
 Также в файле `output.txt` должна выводиться информация о том, что резервное копирование прошло.
 
 ![Снимок экрана 2024-12-25 215719](https://github.com/user-attachments/assets/6069b53f-67f2-48a8-9ef0-01a1da9edc23)
