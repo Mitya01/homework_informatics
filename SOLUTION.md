@@ -8,7 +8,7 @@
 
 Создание bash-скрипта
 ```bash
-     nano backup.sh
+gedit backup.sh
 ```
 
 Примерный код, который надо написать в нем
