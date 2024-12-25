@@ -16,7 +16,7 @@ echo "Hello, world! The current date and time is $(date)" >> "$OUTPUT_FILE"
 Замените `/path/to/your/output.txt` на путь к файлу, в который вы хотите записывать вывод скрипта.
 Сохраните файл и закройте редактор.
 
-Сделайте скрипт исполняемым
+Сделайте скрипт исполняемым:
 ```bash
 chmod +x hello.sh
 ```
