@@ -29,7 +29,7 @@ tar -czvf "$BACKUP_DIR/backup_$TIMESTAMP.tar.gz" "$SOURCE_DIR"
 echo "Резервное копирование завершено: $TIMESTAMP" >> "$OUTPUT_FILE"
 ```
 
-![Снимок экрана 2024-12-25 215950](https://github.com/user-attachments/assets/1ae4c5db-ea3d-44c1-9999-4225696501c5)
+![Снимок экрана 2024-12-25 230551](https://github.com/user-attachments/assets/d4fbc826-4f75-472d-9ca7-37e5c3d1d369)
 
 Нужно сделать скрипт исполняемым:
 
@@ -46,7 +46,7 @@ crontab -e
 Там нужно добавить следующую строку:
 
 ```
-0 0 * * * /path/to/backup.sh
+* * * * * /path/to/backup.sh
 ```
 
 ![Снимок экрана 2024-12-25 215658](https://github.com/user-attachments/assets/8a251cf8-d280-497f-891e-469cd26f572e)
