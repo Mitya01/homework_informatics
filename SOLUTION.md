@@ -63,7 +63,6 @@ crontab -l
 
 ![Снимок экрана 2024-12-25 215719](https://github.com/user-attachments/assets/6069b53f-67f2-48a8-9ef0-01a1da9edc23)
 
-Примерная структура файлов
+Примерная структура файлов (в crontablist хранится записанный crontab)
 
 ![Снимок экрана 2024-12-25 215822](https://github.com/user-attachments/assets/d1de132b-090c-4686-9dbd-64fc98032b11)
- 
