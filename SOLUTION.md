@@ -26,7 +26,7 @@ OUTPUT_FILE="/path/to/output.txt"
      
 tar -czvf "$BACKUP_DIR/backup_$TIMESTAMP.tar.gz" "$SOURCE_DIR"
      
-echo "Резервное копирование завершено: $TIMESTAMP" >> 
+echo "Резервное копирование завершено: $TIMESTAMP" >> "$OUTPUT_FILE"
 ```
 
 ![Снимок экрана 2024-12-25 215950](https://github.com/user-attachments/assets/1ae4c5db-ea3d-44c1-9999-4225696501c5)
